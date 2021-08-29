@@ -58,7 +58,6 @@ function renderBox() {
   box.style.left = getRandom(0, maxLeft) + 'px'
   box.style.cursor = 'pointer'
   box.setAttribute('data-box', 'true')
-
   $game.insertAdjacentElement('afterbegin', box)
 
 }
